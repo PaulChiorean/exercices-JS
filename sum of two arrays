@@ -1,9 +1,9 @@
 function arrayPlusArray(arr1, arr2) {
-var a = 0;
-var b = 0;
-  for(var i = 0; i < arr1.length; i++){
-  a = a + arr1[i];}
-   for(var j = 0; j < arr2.length; j++){
-   b =b + arr2[j];}
+  var a = 0;
+  var b = 0;
+    for(var i = 0; i < arr1.length; i++){
+      a = a + arr1[i];}
+    for(var j = 0; j < arr2.length; j++){
+      b =b + arr2[j];}
   return a + b; 
-  }
+}
